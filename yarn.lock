@@ -11485,13 +11485,13 @@ code-point-at@^1.0.0:
   resolved "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codemirror-graphql@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-1.2.8.tgz#4d3845d786665776eb5c44b0948bfa8f9860077f"
-  integrity sha512-/SlF24YNWirA8SyyaiFkrwPVIhPS/OkMNRHkL3TeZKhJIv3wuGAa90B4DYqY17MBN2QN1+RYd/71eYZD/fvj1Q==
+codemirror-graphql@^1.2.12:
+  version "1.2.12"
+  resolved "https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-1.2.12.tgz#59cf88ae254d5dabd4e596028977a7ec305cddb7"
+  integrity sha512-irP+E8HOWtgIdU3PNTU77bNmpEXQYADRRDmKqkjh3w1m0welbxl6HtZgp+c+Mkkz+FXY1+3+gF6nEEj+eJ1xdg==
   dependencies:
     "@codemirror/stream-parser" "^0.19.2"
-    graphql-language-service "^4.1.1"
+    graphql-language-service "^4.1.5"
 
 codemirror@^5.58.2:
   version "5.63.3"
@@ -16004,18 +16004,18 @@ grapheme-splitter@^1.0.4:
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
 
 graphiql@^1.5.12:
-  version "1.5.13"
-  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.5.13.tgz#7706c56504213598641e8300a612a7dccaba95d5"
-  integrity sha512-lfG7FZzjDb4jwAP5mU+IiYvkTcZ/OygbIlk6JJrB0CPBqMl4k/3dEaZFmyKjmy54xTo8bkiH28VgpcF8VPc1eg==
+  version "1.5.20"
+  resolved "https://registry.npmjs.org/graphiql/-/graphiql-1.5.20.tgz#6d85f7e921676cced881b1a2ea22caa211ed9c1d"
+  integrity sha512-cHXWN8W1npsQxY0N0hxfPzqWyP572Xiz04O1KANslS9uvlCaQ0YBfmUExRnPr85qI1a4s701wlkFwUViQHukoQ==
   dependencies:
     "@graphiql/toolkit" "^0.4.2"
     codemirror "^5.58.2"
-    codemirror-graphql "^1.2.8"
+    codemirror-graphql "^1.2.12"
     copy-to-clipboard "^3.2.0"
     dset "^3.1.0"
     entities "^2.0.0"
     escape-html "^1.0.3"
-    graphql-language-service "^4.1.1"
+    graphql-language-service "^4.1.5"
     markdown-it "^12.2.0"
 
 graphlib@^2.1.8:
@@ -16068,10 +16068,10 @@ graphql-extensions@^0.15.0:
     apollo-server-env "^3.1.0"
     apollo-server-types "^0.9.0"
 
-graphql-language-service-interface@^2.10.1:
-  version "2.10.1"
-  resolved "https://registry.npmjs.org/graphql-language-service-interface/-/graphql-language-service-interface-2.10.1.tgz#0f81a3da576bad61da878b59c228901236358426"
-  integrity sha512-2n/nrt0QD8UnxzDKKHWomYuLK9uxGxyPztA6wI24Kng8Iw7jQk/doIti63z4xPKNi4CtbumSjk1TRYUZ/bgViw==
+graphql-language-service-interface@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.npmjs.org/graphql-language-service-interface/-/graphql-language-service-interface-2.10.2.tgz#de9386f699e446320256175e215cdc10ccf9f9b7"
+  integrity sha512-RKIEBPhRMWdXY3fxRs99XysTDnEgAvNbu8ov/5iOlnkZsWQNzitjtd0O0l1CutQOQt3iXoHde7w8uhCnKL4tcg==
   dependencies:
     graphql-config "^4.1.0"
     graphql-language-service-parser "^1.10.4"
@@ -16103,16 +16103,15 @@ graphql-language-service-utils@^2.7.1:
     graphql-language-service-types "^1.8.7"
     nullthrows "^1.0.0"
 
-graphql-language-service@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/graphql-language-service/-/graphql-language-service-4.1.1.tgz#8093655c23af6a3f3eee3f92e6a5b0a3e2a21d70"
-  integrity sha512-7XP+XSzTnpnmh+EYbofnK/YdSaI7/mj7bS8ffP3A1UQtNBLb9mUErgYju6VegcV6Df0bJObLG+XxSBSlgV4kXQ==
+graphql-language-service@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/graphql-language-service/-/graphql-language-service-4.1.5.tgz#26964e4fcc62e2d850f2b931bef03b91bdf9a6df"
+  integrity sha512-6vvZ+4L1xMNpQdlt6a9BaEzZD3ZIiaTmFdjKu81UTIVRh02QKfbW6tcz4UJNTY+4LsTWjR1rNtG3H4pVNrKJ2Q==
   dependencies:
-    graphql-language-service-interface "^2.10.1"
+    graphql-language-service-interface "^2.10.2"
     graphql-language-service-parser "^1.10.4"
     graphql-language-service-types "^1.8.7"
     graphql-language-service-utils "^2.7.1"
-    picomatch "^2.3.0"
 
 graphql-request@^3.3.0:
   version "3.4.0"
@@ -22862,7 +22861,7 @@ picocolors@^1.0.0:
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3, picomatch@^2.3.0:
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
