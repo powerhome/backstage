@@ -5624,10 +5624,10 @@
   resolved "https://registry.npmjs.org/@spotify/eslint-config-base/-/eslint-config-base-12.0.0.tgz#0b1e41bb436d5c1c20714703629514d64c3c0f06"
   integrity sha512-5Uud/TmzakqmdUNCZpD8JFQRa2VG3dVd3DanSMpU/nVdu6K5LyX8EMU3Tz1vGP18Wih8iAu/sBSJhntNzw7e6w==
 
-"@spotify/eslint-config-react@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config-react/-/eslint-config-react-12.0.0.tgz#5b8d4bc3b81a8ec2824648f482f1f6c3cf711893"
-  integrity sha512-lNHZRtJesNA273OJHBVUGAg2JYyVDZ+bsT7h3OwnX1HYgejJ3YcKPSziPM8TGFAN8DruH3tHFfaM63uAIA1+uw==
+"@spotify/eslint-config-react@^13.0.1":
+  version "13.0.1"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config-react/-/eslint-config-react-13.0.1.tgz#f309f5d3c53ef1e2c7c6ce05f76ee681970112c3"
+  integrity sha512-gyC0CtJ2H9K57HyQG5/RcMsJiB6qmVbBHOHWukZcPLfYtwkK201kgMjHrVfJXoSN+mJxcWhDVPxqe+eA7LHshQ==
 
 "@spotify/eslint-config-typescript@^12.0.0":
   version "12.0.0"
