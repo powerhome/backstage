@@ -5619,10 +5619,10 @@
   resolved "https://registry.npmjs.org/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@spotify/eslint-config-base@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config-base/-/eslint-config-base-12.0.0.tgz#0b1e41bb436d5c1c20714703629514d64c3c0f06"
-  integrity sha512-5Uud/TmzakqmdUNCZpD8JFQRa2VG3dVd3DanSMpU/nVdu6K5LyX8EMU3Tz1vGP18Wih8iAu/sBSJhntNzw7e6w==
+"@spotify/eslint-config-base@^14.0.2":
+  version "14.0.2"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config-base/-/eslint-config-base-14.0.2.tgz#136f245a9386a49ea402c7bf79d1d841519743a7"
+  integrity sha512-buio0cGvsOzMIxX4gYjomwpW6bkywMVDXYrPwMOW0xq61KbDrBLbffZvF5eU/1vs8rVJbWZCFEUM5VDGqBh2Cg==
 
 "@spotify/eslint-config-react@^12.0.0":
   version "12.0.0"
