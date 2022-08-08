@@ -14406,9 +14406,9 @@ event-emitter@^0.3.5:
     es5-ext "~0.10.14"
 
 event-source-polyfill@^1.0.25:
-  version "1.0.25"
-  resolved "https://registry.npmjs.org/event-source-polyfill/-/event-source-polyfill-1.0.25.tgz#d8bb7f99cb6f8119c2baf086d9f6ee0514b6d9c8"
-  integrity sha512-hQxu6sN1Eq4JjoI7ITdQeGGUN193A2ra83qC0Ltm9I2UJVAten3OFVN6k5RX4YWeCS0BoC8xg/5czOCIHVosQg==
+  version "1.0.28"
+  resolved "https://registry.npmjs.org/event-source-polyfill/-/event-source-polyfill-1.0.28.tgz#9029143e6827c65b91b7edfb8528f8384930eff7"
+  integrity sha512-S4Je04Br394hKTiyUXKAkNpha/7r172rLNu76sdxB3Nw2g9sjuEc4kxMu/miaikvWA4jvJ2x6Xkg6BOAb1aM7g==
 
 event-stream@=3.3.4:
   version "3.3.4"
