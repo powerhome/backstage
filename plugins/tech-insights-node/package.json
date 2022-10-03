@@ -33,8 +33,8 @@
     "@backstage/backend-common": "^0.10.0",
     "@backstage/config": "^0.1.8",
     "@backstage/plugin-tech-insights-common": "^0.2.0",
-    "@types/luxon": "^2.0.5",
-    "luxon": "^2.0.2",
+    "@types/luxon": "^3.0.1",
+    "luxon": "^3.0.4",
     "winston": "^3.2.1"
   },
   "devDependencies": {
