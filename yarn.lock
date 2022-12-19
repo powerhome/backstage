@@ -7316,17 +7316,10 @@
     "@types/docker-modem" "*"
     "@types/node" "*"
 
-"@types/dompurify@^2.1.0":
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/@types/dompurify/-/dompurify-2.3.1.tgz#2934adcd31c4e6b02676f9c22f9756e5091c04dd"
-  integrity sha512-YJth9qa0V/E6/XPH1Jq4BC8uCMmO8V1fKWn8PCvuZcAhMn7q0ez9LW6naQT04UZzjFfAPhyRMZmI2a2rbMlEFA==
-  dependencies:
-    "@types/trusted-types" "*"
-
-"@types/dompurify@^2.2.2":
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/@types/dompurify/-/dompurify-2.2.3.tgz#6e89677a07902ac1b6821c345f34bd85da239b08"
-  integrity sha512-CLtc2mZK8+axmrz1JqtpklO/Kvn38arGc8o1l3UVopZaXXuer9ONdZwJ/9f226GrhRLtUmLr9WrvZsRSNpS8og==
+"@types/dompurify@^2.1.0", "@types/dompurify@^2.2.2":
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/@types/dompurify/-/dompurify-2.4.0.tgz#fd9706392a88e0e0e6d367f3588482d817df0ab9"
+  integrity sha512-IDBwO5IZhrKvHFUl+clZxgf3hn2b/lU6H1KaBShPkQyGJUQ0xwebezIPSuiyGwfz1UzJWQl4M7BDxtHtCCPlTg==
   dependencies:
     "@types/trusted-types" "*"
 
@@ -13414,9 +13407,9 @@ domhandler@^4.2.0:
     domelementtype "^2.2.0"
 
 dompurify@^2.2.7, dompurify@^2.2.9:
-  version "2.3.3"
-  resolved "https://registry.npmjs.org/dompurify/-/dompurify-2.3.3.tgz#c1af3eb88be47324432964d8abc75cf4b98d634c"
-  integrity sha512-dqnqRkPMAjOZE0FogZ+ceJNM2dZ3V/yNOuFB7+39qpO93hHhfRpHw3heYQC7DPK9FqbQTfBKUJhiSfz4MvXYwg==
+  version "2.4.1"
+  resolved "https://registry.npmjs.org/dompurify/-/dompurify-2.4.1.tgz#f9cb1a275fde9af6f2d0a2644ef648dd6847b631"
+  integrity sha512-ewwFzHzrrneRjxzmK6oVz/rZn9VWspGFRDb4/rRtIsM1n36t9AKma/ye8syCpcw+XJ25kOK/hOG7t1j2I2yBqA==
 
 domutils@^1.7.0:
   version "1.7.0"
