@@ -6702,12 +6702,10 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
-"@sucrase/jest-plugin@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@sucrase/jest-plugin/-/jest-plugin-2.1.1.tgz#b1e5192e7057fec159151b6aed96eb5b3c08d5c4"
-  integrity sha512-1j+exUcbLRgka2lq/i0IVOYcmrMW1wYPtxJY/+RvZkAQG9GD7lygj5OiHWFKWmynltAg9+x1d5NWQQYNdBTkpQ==
-  dependencies:
-    sucrase "^3.18.0"
+"@sucrase/jest-plugin@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/@sucrase/jest-plugin/-/jest-plugin-3.0.0.tgz#6b28ab612aafa32533870550ba0f7d161369d7f8"
+  integrity sha512-VRY6YKYImVWiRg1H3Yu24hwB1UPJDSDR62R/n+lOHR3+yDrfHEIAoddJivblMYN6U3vD+ndfTSrecZ9Jl+iGNw==
 
 "@sucrase/webpack-loader@^2.0.0":
   version "2.0.0"
@@ -26880,7 +26878,7 @@ subscriptions-transport-ws@^0.9.18, subscriptions-transport-ws@^0.9.19:
     symbol-observable "^1.0.4"
     ws "^5.2.0 || ^6.0.0 || ^7.0.0"
 
-sucrase@^3.18.0, sucrase@^3.20.2:
+sucrase@^3.20.2:
   version "3.20.3"
   resolved "https://registry.npmjs.org/sucrase/-/sucrase-3.20.3.tgz#424f1e75b77f955724b06060f1ae708f5f0935cf"
   integrity sha512-azqwq0/Bs6RzLAdb4dXxsCgMtAaD2hzmUr4UhSfsxO46JFPAwMnnb441B/qsudZiS6Ylea3JXZe3Q497lsgXzQ==
