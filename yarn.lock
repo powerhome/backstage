@@ -13418,6 +13418,11 @@ dompurify@^2.2.7, dompurify@^2.2.9:
   resolved "https://registry.npmjs.org/dompurify/-/dompurify-2.3.3.tgz#c1af3eb88be47324432964d8abc75cf4b98d634c"
   integrity sha512-dqnqRkPMAjOZE0FogZ+ceJNM2dZ3V/yNOuFB7+39qpO93hHhfRpHw3heYQC7DPK9FqbQTfBKUJhiSfz4MvXYwg==
 
+dompurify@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/dompurify/-/dompurify-3.0.0.tgz#6adc6f918376d93419ed1ee35811850680027cba"
+  integrity sha512-0g/yr2IJn4nTbxwL785YxS7/AvvgGFJw6LLWP+BzWzB1+BYOqPUT9Hy0rXrZh5HLdHnxH72aDdzvC9SdTjsuaA==
+
 domutils@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz#56ea341e834e06e6748af7a1cb25da67ea9f8c2a"
