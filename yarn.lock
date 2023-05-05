@@ -6948,15 +6948,15 @@
   resolved "https://registry.npmjs.org/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
   integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
-"@trendyol-js/openstack-swift-sdk@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@trendyol-js/openstack-swift-sdk/-/openstack-swift-sdk-0.0.5.tgz#65be3c42b8dbafc57f2f2a46c327e2ad51e5a70e"
-  integrity sha512-KS5nz0cvd35UUyMzhZm+btGV4prtA1KNE7CCMOGBdVxoMGl06Qidli3HgHoc2I9jLPmky1SPp5yzQUwrsyWa0g==
+"@trendyol-js/openstack-swift-sdk@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/@trendyol-js/openstack-swift-sdk/-/openstack-swift-sdk-0.0.6.tgz#823fd1a310a0c1def770f065d0a71393b8e6d221"
+  integrity sha512-5OOjq6PQjDOavzWwepBl+YKrNWocAz2DoXuzTkfX4J4xRn+yBpkWX3ne7+jbuCDzRIyCaEhhacu3BpB5d2pzkg==
   dependencies:
     agentkeepalive "^4.1.4"
     axios "^0.21.1"
     axios-cached-dns-resolve "0.5.2"
-    file-type "16.5.3"
+    file-type "^16.5.4"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -14976,10 +14976,10 @@ file-system-cache@^1.0.5:
     fs-extra "^0.30.0"
     ramda "^0.21.0"
 
-file-type@16.5.3:
-  version "16.5.3"
-  resolved "https://registry.npmjs.org/file-type/-/file-type-16.5.3.tgz#474b7e88c74724046abb505e9b8ed4db30c4fc06"
-  integrity sha512-uVsl7iFhHSOY4bEONLlTK47iAHtNsFHWP5YE4xJfZ4rnX7S1Q3wce09XgqSC7E/xh8Ncv/be1lNoyprlUH/x6A==
+file-type@^16.5.4:
+  version "16.5.4"
+  resolved "https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz#474fb4f704bee427681f98dd390058a172a6c2fd"
+  integrity sha512-/yFHK0aGjFEgDJjEKP0pWCplsPFPhwyfwevf/pVxiN0tmE4L9LmwWxWukdJSHdoCli4VgQLehjJtwQBnqmsKcw==
   dependencies:
     readable-web-to-node-stream "^3.0.0"
     strtok3 "^6.2.4"
