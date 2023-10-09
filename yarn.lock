@@ -18536,6 +18536,11 @@ jose@^2.0.5:
   dependencies:
     "@panva/asn1.js" "^1.0.0"
 
+jose@^4.15.1:
+  version "4.15.2"
+  resolved "https://registry.npmjs.org/jose/-/jose-4.15.2.tgz#61f97383f0b433d45da26d35094155a30a672d92"
+  integrity sha512-IY73F228OXRl9ar3jJagh7Vnuhj/GzBunPiZP13K0lOl7Am9SoWW3kEzq3MCllJMTtZqHTiDXQvoRd4U95aU6A==
+
 joycon@^3.0.1:
   version "3.1.0"
   resolved "https://registry.npmjs.org/joycon/-/joycon-3.1.0.tgz#33bb2b6b5a6849a1e251bed623bdf610f477d49f"
@@ -21932,10 +21937,10 @@ octokit-plugin-create-pull-request@^3.10.0:
   dependencies:
     "@octokit/types" "^6.8.2"
 
-oidc-token-hash@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/oidc-token-hash/-/oidc-token-hash-5.0.1.tgz#ae6beec3ec20f0fd885e5400d175191d6e2f10c6"
-  integrity sha512-EvoOtz6FIEBzE+9q253HsLCVRiK/0doEJ2HCvvqMQb3dHZrP3WlJKYtJ55CRTw4jmYomzH4wkPuCj/I3ZvpKxQ==
+oidc-token-hash@^5.0.1, oidc-token-hash@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.npmjs.org/oidc-token-hash/-/oidc-token-hash-5.0.3.tgz#9a229f0a1ce9d4fc89bcaee5478c97a889e7b7b6"
+  integrity sha512-IF4PcGgzAr6XXSff26Sk/+P4KZFJVuHAJZj3wgO3vX2bMdNVp/QXTP3P7CEm9V1IdG8lDLY3HhiqpsE/nOwpPw==
 
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
@@ -22007,7 +22012,7 @@ openapi-sampler@^1.1.0:
     "@types/json-schema" "^7.0.7"
     json-pointer "^0.6.1"
 
-openid-client@^4.1.1, openid-client@^4.2.1:
+openid-client@^4.1.1:
   version "4.9.0"
   resolved "https://registry.npmjs.org/openid-client/-/openid-client-4.9.0.tgz#bdfc9194435316df419f759ce177635146b43074"
   integrity sha512-ThBbvRUUZwxUKBVK2UpDNIZ3eJkvtqWI8s5Dm+naV+gJdL+yRhT+8ywqct1gy5uL+xVS5+A/nhFcpJIisH2x6Q==
@@ -22019,6 +22024,16 @@ openid-client@^4.1.1, openid-client@^4.2.1:
     make-error "^1.3.6"
     object-hash "^2.0.1"
     oidc-token-hash "^5.0.1"
+
+openid-client@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.npmjs.org/openid-client/-/openid-client-5.6.0.tgz#3cc084b9a93a5e810a7f309d23812204d08286d9"
+  integrity sha512-uFTkN/iqgKvSnmpVAS/T6SNThukRMBcmymTQ71Ngus1F60tdtKVap7zCrleocY+fogPtpmoxi5Q1YdrgYuTlkA==
+  dependencies:
+    jose "^4.15.1"
+    lru-cache "^6.0.0"
+    object-hash "^2.2.0"
+    oidc-token-hash "^5.0.3"
 
 optionator@^0.8.1:
   version "0.8.3"
