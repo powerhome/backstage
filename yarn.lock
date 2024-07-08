@@ -5361,6 +5361,11 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
+"@remix-run/router@1.17.1":
+  version "1.17.1"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.17.1.tgz#bf93997beb81863fde042ebd05013a2618471362"
+  integrity sha512-mCOMec4BKd6BRGBZeSnGiIgwsbLGp3yhVqAD8H+PxiRNEHgDpZb8J1TnrSDlg97t0ySKMQJTHCWBCmBpSmkF6Q==
+
 "@rjsf/core@^3.2.1":
   version "3.2.1"
   resolved "https://registry.npmjs.org/@rjsf/core/-/core-3.2.1.tgz#8a7b24c9a6f01f0ecb093fdfc777172c12b1b009"
@@ -24300,12 +24305,19 @@ react-router@6.0.0-beta.0:
   dependencies:
     prop-types "^15.7.2"
 
-react-router@6.2.1, react-router@^6.0.0, react-router@^6.0.0-beta.0:
+react-router@6.2.1:
   version "6.2.1"
   resolved "https://registry.npmjs.org/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
   integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
   dependencies:
     history "^5.2.0"
+
+react-router@6.24.1, react-router@^6.0.0, react-router@^6.0.0-beta.0:
+  version "6.24.1"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.24.1.tgz#5a3bbba0000afba68d42915456ca4c806f37a7de"
+  integrity sha512-PTXFXGK2pyXpHzVo3rR9H7ip4lSPZZc0bHG5CARmj65fTT6qG7sTngmb6lcYu1gf3y/8KxORoy9yn59pGpCnpg==
+  dependencies:
+    "@remix-run/router" "1.17.1"
 
 react-side-effect@^2.1.0:
   version "2.1.0"
