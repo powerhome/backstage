@@ -20107,9 +20107,9 @@ marked@^2.1.1:
   integrity sha512-/Q+7MGzaETqifOMWYEA7HVMaZb4XbcRfaOzcSsHZEith83KGlvaSG33u0SKu89Mj5h+T8V2hM+8O45Qc5XTgwA==
 
 material-ui-search-bar@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/material-ui-search-bar/-/material-ui-search-bar-1.0.0.tgz#2652dd5bdc4cb043cffb7144d9c296c120702e62"
-  integrity sha512-lCNuzMLPBVukVAkcnYKLXHneozsuKZREZNOcc8z9S9scXHqxJzhC9hOS3OC3/YJ+NJEB5lZB9zg1gryBaXEu8w==
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/material-ui-search-bar/-/material-ui-search-bar-1.0.1.tgz#c3a8cf78e338b0358c4c9a4b433af7ef717cf3bc"
+  integrity sha512-dvT11lnEZ/qw0Ipd+1IT+upx540Xs07LbUL+hLLteofc/PYePPgGEGsya27UQDkjhAM/jjDeVyOGgzT6LycYWg==
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.5.8"
