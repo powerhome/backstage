@@ -2581,17 +2581,12 @@
     style-mod "^4.0.0"
     w3c-keyname "^2.2.4"
 
-"@cspotcode/source-map-consumer@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.npmjs.org/@cspotcode/source-map-consumer/-/source-map-consumer-0.8.0.tgz#33bf4b7b39c178821606f669bbc447a6a629786b"
-  integrity sha512-41qniHzTU8yAGbCp04ohlmSrZf8bkf/iJsl3V0dRGsQN/5GFfx+LbCSsCpp2gqrqjTVg/K6O8ycoV35JIwAzAg==
-
-"@cspotcode/source-map-support@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.7.0.tgz#4789840aa859e46d2f3173727ab707c66bf344f5"
-  integrity sha512-X4xqRHqN8ACt2aHVe51OxeA2HjbcL4MqFqXkrmQszJ1NOUuUu5u6Vqx/0lZSVNku7velL5FC/s5uEAj1lsBMhA==
+"@cspotcode/source-map-support@^0.8.0":
+  version "0.8.1"
+  resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
+  integrity sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==
   dependencies:
-    "@cspotcode/source-map-consumer" "0.8.0"
+    "@jridgewell/trace-mapping" "0.3.9"
 
 "@cypress/listr-verbose-renderer@^0.4.1":
   version "0.4.1"
@@ -3789,6 +3784,24 @@
   version "1.0.1"
   resolved "https://registry.npmjs.org/@josephg/resolvable/-/resolvable-1.0.1.tgz#69bc4db754d79e1a2f17a650d3466e038d94a5eb"
   integrity sha512-CtzORUwWTTOTqfVtHaKRJ0I1kNQd1bpn3sUh8I3nJDVY+5/M/Oe1DnEWzPQvqq/xPIIkzzzIP7mfCoAjFRvDhg==
+
+"@jridgewell/resolve-uri@^3.0.3":
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz#7a0ee601f60f99a20c7c7c5ff0c80388c1189bd6"
+  integrity sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==
+
+"@jridgewell/sourcemap-codec@^1.4.10":
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz#3188bcb273a414b0d215fd22a58540b989b9409a"
+  integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
+
+"@jridgewell/trace-mapping@0.3.9":
+  version "0.3.9"
+  resolved "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz#6534fd5933a53ba7cbf3a17615e273a0d1273ff9"
+  integrity sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==
+  dependencies:
+    "@jridgewell/resolve-uri" "^3.0.3"
+    "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@jsdevtools/ono@^7.1.3":
   version "7.1.3"
@@ -7844,10 +7857,12 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@>= 8", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^16.9.2":
-  version "16.11.6"
-  resolved "https://registry.npmjs.org/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
-  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
+"@types/node@*", "@types/node@>= 8", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^18.11.9":
+  version "18.19.54"
+  resolved "https://registry.npmjs.org/@types/node/-/node-18.19.54.tgz#f1048dc083f81b242640f04f18fb3e4ccf13fcdb"
+  integrity sha512-+BRgt0G5gYjTvdLac9sIeE0iZcJxi4Jc4PV5EUzqi+88jmQLr+fRZdv2tCTV7IHKSGxM6SaLoOXQWWUiLUItMw==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/node@12.20.24", "@types/node@^12.7.1":
   version "12.20.24"
@@ -22656,6 +22671,11 @@ path-dirname@^1.0.0:
   resolved "https://registry.npmjs.org/path-dirname/-/path-dirname-1.0.2.tgz#cc33d24d525e099a5388c0336c6e32b9160609e0"
   integrity sha1-zDPSTVJeCZpTiMAzbG4yuRYGCeA=
 
+path-equal@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npmjs.org/path-equal/-/path-equal-1.2.5.tgz#9fcbdd5e5daee448e96f43f3bac06c666b5e982a"
+  integrity sha512-i73IctDr3F2W+bsOWDyyVm/lqsXO47aY9nsFZUjTT/aljSbkxHxxCoyZ9UUrM8jK0JVod+An+rl48RCsvWM+9g==
+
 path-exists@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz#0feb6c64f0fc518d9a754dd5efb62c7022761f4b"
@@ -27734,12 +27754,12 @@ ts-log@^2.2.3:
   resolved "https://registry.npmjs.org/ts-log/-/ts-log-2.2.3.tgz#4da5640fe25a9fb52642cd32391c886721318efb"
   integrity sha512-XvB+OdKSJ708Dmf9ore4Uf/q62AYDTzFcAdxc8KNML1mmAWywRFVt/dn1KYJH8Agt5UJNujfM3znU5PxgAzA2w==
 
-ts-node@^10.0.0, ts-node@^10.2.1, ts-node@^10.4.0:
-  version "10.4.0"
-  resolved "https://registry.npmjs.org/ts-node/-/ts-node-10.4.0.tgz#680f88945885f4e6cf450e7f0d6223dd404895f7"
-  integrity sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==
+ts-node@^10.0.0, ts-node@^10.4.0, ts-node@^10.9.1:
+  version "10.9.2"
+  resolved "https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz#70f021c9e185bccdca820e26dc413805c101c71f"
+  integrity sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==
   dependencies:
-    "@cspotcode/source-map-support" "0.7.0"
+    "@cspotcode/source-map-support" "^0.8.0"
     "@tsconfig/node10" "^1.0.7"
     "@tsconfig/node12" "^1.0.7"
     "@tsconfig/node14" "^1.0.0"
@@ -27750,6 +27770,7 @@ ts-node@^10.0.0, ts-node@^10.2.1, ts-node@^10.4.0:
     create-require "^1.1.0"
     diff "^4.0.1"
     make-error "^1.1.1"
+    v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
 ts-node@^9:
@@ -27958,17 +27979,18 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-json-schema@^0.52.0:
-  version "0.52.0"
-  resolved "https://registry.npmjs.org/typescript-json-schema/-/typescript-json-schema-0.52.0.tgz#954560ec90e5486e8f7a5b7706ec59286a708e29"
-  integrity sha512-3ZdHzx116gZ+D9LmMl5/+d1G3Rpt8baWngKzepYWHnXbAa8Winv64CmFRqLlMKneE1c40yugYDFcWdyX1FjGzQ==
+typescript-json-schema@^0.65.1:
+  version "0.65.1"
+  resolved "https://registry.npmjs.org/typescript-json-schema/-/typescript-json-schema-0.65.1.tgz#24840812f69b220b75d86ed87e220b3b3345db2c"
+  integrity sha512-tuGH7ff2jPaUYi6as3lHyHcKpSmXIqN7/mu50x3HlYn0EHzLpmt3nplZ7EuhUkO0eqDRc9GqWNkfjgBPIS9kxg==
   dependencies:
     "@types/json-schema" "^7.0.9"
-    "@types/node" "^16.9.2"
+    "@types/node" "^18.11.9"
     glob "^7.1.7"
+    path-equal "^1.2.5"
     safe-stable-stringify "^2.2.0"
-    ts-node "^10.2.1"
-    typescript "~4.4.4"
+    ts-node "^10.9.1"
+    typescript "~5.5.0"
     yargs "^17.1.1"
 
 typescript@^4.0.3, typescript@~4.5.2:
@@ -27981,10 +28003,10 @@ typescript@~4.3.5:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
-typescript@~4.4.4:
-  version "4.4.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
-  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+typescript@~5.5.0:
+  version "5.5.4"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
+  integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==
 
 ua-parser-js@^0.7.18:
   version "0.7.28"
@@ -28067,6 +28089,11 @@ underscore@^1.12.1, underscore@^1.9.1:
   version "1.13.1"
   resolved "https://registry.npmjs.org/underscore/-/underscore-1.13.1.tgz#0c1c6bd2df54b6b69f2314066d65b6cde6fcf9d1"
   integrity sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g==
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 undici@^4.9.3:
   version "4.11.0"
@@ -28603,6 +28630,11 @@ uuid@^8.0.0, uuid@^8.2.0, uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+v8-compile-cache-lib@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
+  integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
