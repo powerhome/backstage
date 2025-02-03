@@ -25413,10 +25413,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-run-script-webpack-plugin@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.npmjs.org/run-script-webpack-plugin/-/run-script-webpack-plugin-0.0.11.tgz#04c510bed06b907fa2285e75feece71a25691171"
-  integrity sha512-QmuBhiqBPmhQLpO5vMBHVTAGyoPBnrCM5gQ3IzgieiImBXiBbXcIv4kysCT1gilFNFxQk22oKQfiIhWbT/zXCw==
+run-script-webpack-plugin@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/run-script-webpack-plugin/-/run-script-webpack-plugin-0.2.1.tgz#13631cc82c56f33d5c12bfd600668e78bc9810c1"
+  integrity sha512-8IOErQNe20i4CeU0ud3Y5OQLPDuVFIEbNrqPMxgbczagRT72slGCgO+7D1ZX7NzfVaV+m0/GHyvtEAC2gNa8iQ==
 
 rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.6.0, rxjs@^6.6.3, rxjs@^6.6.7:
   version "6.6.7"
